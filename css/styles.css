@@ -6,6 +6,7 @@ body{
 }
 
 header{
+    margin: 0 auto;
     height: 1038px;
     background: rgb(2,78,184);
     background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
@@ -15,27 +16,77 @@ header{
 }
 
 .logo{
-    position: absolute;
-    top: 41px;
-    left: 73px;
+
 }
 
 .info{
-    position: absolute;
-    top: 41px;
-    right: 73px;
+
 }
 
 .info p{
     color: #FFFFFF;
     font-size: 20px;
     line-height: 1.2;
+    font-weight: 400;
 }
 
+.title{
 
+}
 
+.title p{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.title2 p{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.title__button{
+    width: 401px;
+    height: 81px;
+    border-radius: 50px;
+    border: none;
+    background-color: #00BCCA;
+    -webkit-box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+    -moz-box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+    box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+}
+
+.title__button span{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title__button:hover{
+    background-color: #0045B4;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+.title__button:active{
+    background-color: #0045B4;
+    box-shadow: 0 5px #0045b4;
+    transform: translateY(4px);
+    outline: none;
+    border: none;
+}
+
+.title__button:focus {
+    outline:0;
+}
 
 main{
     height: 6621px;
     background-color: #F4F6F8;
 }
+
