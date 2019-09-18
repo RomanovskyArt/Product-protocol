@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 1038px;
+    background: rgb(2,78,184);
+    background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    background: linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
+}
+
+.logo{
+    position: absolute;
+    top: 41px;
+    left: 73px;
+}
+
+.info{
+    position: absolute;
+    top: 41px;
+    right: 73px;
+}
+
+.info p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+
+main{
+    height: 6621px;
+    background-color: #F4F6F8;
+}
