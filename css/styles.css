@@ -6,8 +6,7 @@ body{
 }
 
 header{
-    margin: 0 auto;
-    height: 1038px;
+    height: 1250px;
     background: rgb(2,78,184);
     background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
     background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
@@ -15,18 +14,15 @@ header{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
 }
 
-.logo{
-
-}
-
-.info{
-
+.wrap{
+    padding: 41px 170px 0;
 }
 
 .info p{
+    margin-top: 24px;
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.3;
     font-weight: 400;
 }
 
@@ -37,18 +33,24 @@ header{
 .title p{
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
+    font-size: 50px;
+    line-height: 1.3;
     font-weight: 600;
+    margin-top: 148px;
 }
 
 .title2 p{
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 35px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding-top: 54px;
 }
 
 .title__button{
-    width: 401px;
-    height: 81px;
+    margin-top: 66px;
+    width: 450px;
+    height: 85px;
     border-radius: 50px;
     border: none;
     background-color: #00BCCA;
@@ -59,7 +61,7 @@ header{
 
 .title__button span{
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -85,8 +87,71 @@ header{
     outline:0;
 }
 
+.graph{
+    margin-top: 81px;
+}
+
+.graph img{
+    width: 900px;
+}
+
+
 main{
     height: 6621px;
     background-color: #F4F6F8;
+    padding-top: 355px;
+}
+
+.timer{
+    position: relative;
+    top: 160px;
+    width: 90%;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+    box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+}
+
+.timer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #303030;
+}
+
+.main__title{
+    font-family: 'Montserrat', sans-serif;
+    color: #2472B8;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+
+
+.content img{
+
+}
+
+.content h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #373737;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.content p{
+    color: #373737;
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.cards p{
+    color: #373737;
+    font-size: 20px;
+    line-height: 2.2;
+    font-weight: 300;
 }
 
