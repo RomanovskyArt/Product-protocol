@@ -127,23 +127,42 @@ main{
     line-height: 1.1;
 }
 
+.content__second-part{
 
+}
 
-.content img{
+.content__second-part h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #535353;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.content__second-part p{
+    font-family: 'Roboto', sans-serif;
+    color: #373737;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+.content__second-part img{
 
 }
 
 .content h2{
     font-family: 'Montserrat', sans-serif;
     color: #373737;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.3;
     font-weight: 600;
 }
 
 .content p{
+    font-family: 'Roboto', sans-serif;
     color: #373737;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.3;
     font-weight: 300;
 }
@@ -155,3 +174,17 @@ main{
     font-weight: 300;
 }
 
+.parallelogram {
+    width: 100%;
+    height: 1200px;
+    clip-path: polygon(0 18%, 100% 0%, 100% 82%, 0% 100%);
+    background: rgb(2,78,184);
+    background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    background: linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
+}
+
+.brands{
+    position: relative;
+}
