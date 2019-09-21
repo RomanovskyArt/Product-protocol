@@ -2,19 +2,19 @@ var ringer = {
     //countdown_to: "10/31/2014",
     countdown_to: "10/4/2019",
     rings: {
-        'Days': {
+        'дней': {
             s: 86400000, // mseconds in a day,
             max: 365
         },
-        'Hours': {
+        'часов': {
             s: 3600000, // mseconds per hour,
             max: 24
         },
-        'Minutes': {
+        'минут': {
             s: 60000, // mseconds per minute
             max: 60
         },
-        'Seconds': {
+        'секунд': {
             s: 1000,
             max: 60
         }//,
@@ -24,9 +24,10 @@ var ringer = {
         // }
     },
     r_count: 4,
-    r_spacing: 10, // px
-    r_size: 100, // px
-    r_thickness: 3, // px
+    r_spacing: 65, // px
+    r_size: 210, // px
+    r_firstThickness: 2, // px
+    r_secondThickness: 2, // px
     r_pointThickness: 7, // px
     update_interval: 11, // ms
 
@@ -101,14 +102,14 @@ var ringer = {
         $r.ctx.strokeStyle = "rgba(0, 69, 180, 1)";
         $r.ctx.beginPath();
         $r.ctx.arc(0,0,$r.r_size/2,110,2 * Math.PI + 110, 2);
-        $r.ctx.lineWidth = $r.r_thickness;
+        $r.ctx.lineWidth = $r.r_firstThickness;
         $r.ctx.stroke();
 
         // second circle
         $r.ctx.strokeStyle = "rgba(0, 188, 202, 1)";
         $r.ctx.beginPath();
         $r.ctx.arc(0,0,$r.r_size/2,110,endAngle + 110, 1);
-        $r.ctx.lineWidth = $r.r_thickness;
+        $r.ctx.lineWidth = $r.r_secondThickness;
         $r.ctx.stroke();
 
         // Circle end point
@@ -121,12 +122,13 @@ var ringer = {
         // label
         $r.ctx.fillStyle = "#454545";
 
-        $r.ctx.font = '12px Helvetica';
-        $r.ctx.fillText(label, 0, 23);
-        $r.ctx.fillText(label, 0, 23);
+        $r.ctx.fontFamily = ""
+        $r.ctx.font = '900 30px Montserrat';
+        $r.ctx.fillText(label, 0, 55);
+        //$r.ctx.fillText(label, 0, 23);
 
-        $r.ctx.font = 'bold 40px Helvetica';
-        $r.ctx.fillText(Math.floor(value), 0, 10);
+        $r.ctx.font = '900 90px Montserrat';
+        $r.ctx.fillText(Math.floor(value), 0, 20);
 
         $r.ctx.restore();
     }
