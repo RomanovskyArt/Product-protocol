@@ -8,13 +8,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/mediaquery.css" rel="stylesheet">
 </head>
 <body>
 <header>
 
 <div class="wrap container-fluid">
         <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-2" >
                 <div class="logo">
                     <img src="images/logo.png" alt="logo" class="img-fluid">
                 </div>
@@ -166,7 +167,7 @@
         <div class="container-fluid wrap">
 
             <div class="row">
-                <div class="col-lg-12 text-center mt-5">
+                <div class="col-lg-12 text-center mt-5 mb-3 pt-5">
                     <p class="main__title">Доходность инвестиций в активы<br>
                     Product Protocol
                 </p>
@@ -223,7 +224,7 @@
             </section>
 
             <div class="row">
-                <div class="col-lg-12 text-center mt-5 mb-5">
+                <div class="col-lg-12 text-center mt-5 mb-5 pt-5 pb-5">
                     <p class="main__title">Что такое Product Protocol?</p>
                 </div>
             </div>
@@ -232,7 +233,7 @@
 
                 </div>
             </div>
-            <div class="content__third-part row text-left mt-3">
+            <div class="content__third-part row text-left mt-3 pb-4">
                 <div class="col-lg-4">
                     <h2>Digital-<br>
                         платформа<br>
@@ -253,7 +254,7 @@
         </div>
 <div class="container contact__form">
     <form class="text-center" action="#!">
-        <p class="main__title mb-5 mt-5">Хотите узнать больше?<br>
+        <p class="main__title mb-5 mt-5 pb-3 pt-5">Хотите узнать больше?<br>
             Наши консультанты свяжутся с вами</p>
         <div class="form-row mb-4">
             <div class="col-lg-6 text-left">
@@ -265,24 +266,28 @@
                 <input type="text" id="defaultRegisterPhonePassword" class="form-control form-control-lg" placeholder="+74957556983" aria-describedby="defaultRegisterFormPhoneHelpBlock">
             </div>
         </div>
-        <button class="btn btn-info my-4 btn-block mx-auto" type="submit">Отправить</button>
+        <div class="row mb-5 pb-5">
+            <div class="col-lg-12">
+                <button class="btn btn-info btn-block mx-auto" type="submit">Отправить</button>
+            </div>
+        </div>
     </form>
 </div>
 <div class="container-fluid">
     <div class="row">
         <div class="parallelogram">
             <div class="brands container">
-                <div class="row text-center mt-5 mb-5">
+                <div class="row text-center pb-5 mb-5">
                     <div class="col-lg-12">
                         <h2>С нами работают </h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pb-4">
                     <div class="col-lg-3">
                         <img src="images/mercedes.png" alt="mercedes" class="img-fluid">
                     </div>
                     <div class="col-lg-3">
-                        <img src="images/citibank.png" alt="citibank" class="img-fluid">
+                        <img src="images/citibank.png" alt="citibank" class="img-fluid pt-3">
                     </div>
                     <div class="col-lg-3 text-center">
                         <img src="images/cryptoprocessing.png" alt="cryptoprocessing" class="img-fluid">
@@ -295,7 +300,7 @@
                     <div class="col-lg-3">
                         <img src="images/dokkur.png" alt="dokkur" class="img-fluid">
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-lg-3 text-right">
                         <img src="images/dellaprotonda.png" alt="dellaprotonda" class="img-fluid">
                     </div>
                     <div class="col-lg-3 text-center">
@@ -313,40 +318,49 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-lg-12 text-center mt-5">
+        <div class="col-lg-12 text-center mt-5 pt-5 mb-5">
             <p class="main__title">Офисы и представительства<br>
                 Product Protocol
             </p>
         </div>
     </div>
 
-    <div class="row mt-5 wrap">
-        <div class="view overlay zoom col-lg-4">
-            <img src="images/singapure.png" alt="singapure" class="img-fluid img-gradient">
-            <div class="mask flex-center rgba-blue-strong">
-                <p class="white-text text-center">Singapore, Suntec<br> city tower 2</p>
+    <div class="offices row mt-5 pb-5 wrap">
+        <div class="col-lg-4">
+            <div class="effects view overlay zoom w-75">
+                <img src="images/singapure.png" alt="singapure" class="img-fluid">
+                <div class="mask flex-center rgba-blue-strong">
+                    <p class="white-text text-center">Singapore, Suntec<br> city tower 2</p>
+                </div>
             </div>
         </div>
+
         <div class="view overlay zoom col-lg-4">
-            <img src="images/korea.png" alt="korea" class="img-fluid mx-auto img-gradient">
+            <div class="effects view overlay zoom w-75 mx-auto">
+                <img src="images/korea.png" alt="korea" class="img-fluid">
+                <div class="mask flex-center rgba-blue-strong">
+                    <p class="white-text text-center">#755, 578,<br>Seolleung-ro,<br> Gangnam-gu, Seoul,<br> Republic of Korea2</p>
+                </div>
+            </div>
         </div>
+
         <div class="view overlay zoom col-lg-4">
-            <img src="images/moskva.png" alt="moskva" class="img-fluid float-right img-gradient">
+            <div class="effects view overlay zoom w-75 float-right">
+                <img src="images/moskva.png" alt="moskva" class="img-fluid">
+                <div class="mask flex-center rgba-blue-strong">
+                    <p class="white-text text-center">Москва, Пресненская<br> набережная д. 12</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
-
-
-
 
 
 </main>
 
 <footer>
     <div class="container-fluid">
-        <div class="row wrap py-3 ">
+        <div class="row wrap py-3 pt-5">
             <div class="col-lg-4">
                 <p class="text-left">© 2019 Product Protocol. All rights reserved.<br><u><a>Privacy Policy</a></u></p>
             </div>
@@ -374,3 +388,4 @@
 <script src="js/main.js"></script>
 </body>
 </html>
+
