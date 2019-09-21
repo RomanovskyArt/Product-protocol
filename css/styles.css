@@ -89,9 +89,7 @@ header{
     width: 900px;
 }
 
-
 main{
-    height: 5800px;
     background-color: #F4F6F8;
     padding-top: 355px;
 }
@@ -367,8 +365,21 @@ main{
 }
 
 .brands{
-    margin-top: 300px;
+    margin-top: 265px;
 }
+
+.rgba-blue-strong{
+    background: rgba(115,157,214,0.6);
+}
+
+.offices p{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
 
 footer{
     background-color: #F4F6F8;
