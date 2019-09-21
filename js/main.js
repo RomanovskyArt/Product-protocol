@@ -34,7 +34,6 @@ var ringer = {
     {
         $r = ringer;
         $r.cvs = document.createElement("canvas");
-        document.getElementById("countdown").appendChild($r.cvs);
 
         //get DPI
         let dpi = window.devicePixelRatio;
@@ -49,7 +48,8 @@ var ringer = {
         $r.cvs.setAttribute('height',$r.size.h);
         $r.ctx = $r.cvs.getContext('2d');
 
-        $(document.body).append($r.cvs);
+        var element = document.getElementById("countdown");
+        $(element).append($r.cvs);
         $r.cvs = $($r.cvs);
         $r.ctx.textAlign = 'center';
         $r.actual_size = $r.r_size + $r.r_pointThickness;
