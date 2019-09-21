@@ -90,7 +90,7 @@ main{
     padding-top: 355px;
 }
 
-.timer{
+.box__timer{
     position: relative;
     top: 160px;
     width: 90%;
@@ -102,7 +102,7 @@ main{
     box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
 }
 
-.timer p{
+.box__timer p{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: #303030;

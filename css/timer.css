@@ -5,6 +5,9 @@ canvas {
     position: relative;
     background: transparent;
     margin: 40px auto;
-    margin-top: -150px;
 }
 
+.timer{
+    position: relative;
+    bottom: 185px;
+}
