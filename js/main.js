@@ -124,11 +124,11 @@ var ringer = {
 
         $r.ctx.fontFamily = ""
         $r.ctx.font = '900 30px Montserrat';
-        $r.ctx.fillText(label, 0, 55);
+        $r.ctx.fillText(label, 0, 46);
         //$r.ctx.fillText(label, 0, 23);
 
         $r.ctx.font = '900 90px Montserrat';
-        $r.ctx.fillText(Math.floor(value), 0, 20);
+        $r.ctx.fillText(Math.floor(value), 0, 12);
 
         $r.ctx.restore();
     }
