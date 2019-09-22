@@ -1,27 +1,28 @@
-var ringer = {
-    //countdown_to: "10/31/2014",
+var ringer = 
+{
     countdown_to: "10/4/2019",
-    rings: {
-        'дней': {
+    rings: 
+    {
+        'дней': 
+        {
             s: 86400000, // mseconds in a day,
             max: 365
         },
-        'часов': {
+        'часов': 
+        {
             s: 3600000, // mseconds per hour,
             max: 24
         },
-        'минут': {
+        'минут': 
+        {
             s: 60000, // mseconds per minute
             max: 60
         },
-        'секунд': {
+        'секунд': 
+        {
             s: 1000,
             max: 60
-        }//,
-        // 'Microsec': {
-        //   s: 10,
-        //   max: 100
-        // }
+        }
     },
     r_count: 4,
     r_spacing: 65, // px
@@ -39,7 +40,8 @@ var ringer = {
         //get DPI
         let dpi = window.devicePixelRatio;
 
-        $r.size = {
+        $r.size = 
+        {
             w: ((($r.r_size + $r.r_pointThickness) * $r.r_count + ($r.r_spacing*($r.r_count-1))) * dpi),
             h: (($r.r_size + $r.r_pointThickness) * dpi)
         };
@@ -75,7 +77,8 @@ var ringer = {
 
         setTimeout($r.go,$r.update_interval);
     },
-    unit: function(idx,label,ring) {
+    unit: function(idx,label,ring) 
+    {
         var x,y, value, ring_secs = ring.s;
         value = parseFloat($r.time/ring_secs);
         $r.time-=Math.round(parseInt(value)) * ring_secs;
@@ -108,7 +111,7 @@ var ringer = {
         // second circle
         $r.ctx.strokeStyle = "rgba(0, 188, 202, 1)";
         $r.ctx.beginPath();
-        $r.ctx.arc(0,0,$r.r_size/2,110,endAngle + 110, 1);
+        $r.ctx.arc(0, 0, $r.r_size/2, 110, endAngle + 110, 1);
         $r.ctx.lineWidth = $r.r_secondThickness;
         $r.ctx.stroke();
 
@@ -116,7 +119,7 @@ var ringer = {
         $r.ctx.strokeStyle = "rgba(0, 69, 180, 1)";
         $r.ctx.beginPath();
         $r.ctx.lineWidth = $r.r_pointThickness;
-        $r.ctx.arc(0,0,$r.r_size/2, endAngle + 110, endAngle + 110, 1);
+        $r.ctx.arc(0, 0, $r.r_size/2, endAngle + 110, endAngle + 109.999, 1);
         $r.ctx.stroke();
 
         // label
@@ -125,7 +128,6 @@ var ringer = {
         $r.ctx.fontFamily = ""
         $r.ctx.font = '900 30px Montserrat';
         $r.ctx.fillText(label, 0, 46);
-        //$r.ctx.fillText(label, 0, 23);
 
         $r.ctx.font = '900 90px Montserrat';
         $r.ctx.fillText(Math.floor(value), 0, 12);
