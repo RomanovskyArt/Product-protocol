@@ -71,5 +71,12 @@
     .graph img {
         width: 100%;
     }
+
+    .main__title {
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 19px;
+        line-height: 1.2;
+    }
 }
 
