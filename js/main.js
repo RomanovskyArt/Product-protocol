@@ -37,6 +37,13 @@ var ringer =
         $r = ringer;
         $r.cvs = document.createElement("canvas");
 
+        // For mobile version
+
+        // Device width
+        var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+        if(width <= 414)
+            $r.r_count = 3;
+
         //get DPI
         let dpi = window.devicePixelRatio;
 
