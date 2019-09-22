@@ -57,10 +57,14 @@ var ringer =
         $r.ctx.textAlign = 'center';
         $r.actual_size = $r.r_size + $r.r_pointThickness;
         $r.countdown_to_time = new Date($r.countdown_to).getTime();
-        $r.cvs.css({ width: $r.size.w+"px", height: $r.size.h+"px" });
+        //$r.cvs.css({ width: $r.size.w+"px", height: $r.size.h+"px" });
 
         // Making shapes rounded
         $r.ctx.lineCap = 'round';
+
+        // Get the device pixel ratio, falling back to 1.
+  		var dpr = window.devicePixelRatio || 1;
+  		$r.ctx.scale(dpr, dpr);
 
         $r.go();
     },

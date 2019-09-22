@@ -1,6 +1,7 @@
 canvas {
-    width: 900px;
-    height: 200px;
+    /*width: 900px;
+    height: 200px;*/
+    width: 85%;
     display: block;
     position: relative;
     background: transparent;
