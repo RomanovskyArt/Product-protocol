@@ -134,7 +134,7 @@ var ringer =
         $r.ctx.fillText(label, 0, 46);
 
         $r.ctx.font = '900 90px Montserrat';
-        $r.ctx.fillText(Math.floor(value), 0, 12);
+        $r.ctx.fillText(Math.floor(value), 0, 16);
 
         $r.ctx.restore();
     }
