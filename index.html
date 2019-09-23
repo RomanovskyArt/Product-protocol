@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/mediaquery.css" rel="stylesheet">
     <link href="css/timer.css" rel="stylesheet">
@@ -15,6 +16,7 @@
 <header>
 
 <div class="wrap container-fluid">
+    <div data-aos="fade">
         <div class="row">
             <div class="logo col-lg-2 col-5">
                     <img src="images/logo.png" alt="logo" class="img-fluid">
@@ -24,30 +26,36 @@
                         support@pprotocol.io</p>
             </div>
         </div>
+    </div>
 
         <div class="row">
             <div class="col-lg-6">
-                <div class="title">
-                    <p>За 2019 год инвесторы в IPEO<br>
-                        получили в среднем<br>
-                        584% прибыли!
-                    </p>
+                <div data-aos="fade-right">
+                    <div class="title">
+                        <p>За 2019 год инвесторы в IPEO<br>
+                            получили в среднем<br>
+                            584% прибыли!
+                        </p>
+                    </div>
+                    <div class="title2">
+                        <p>
+                            Стоимость PPO на IPEO: $0.0008<br>
+                            Стоимость PPO при листинге: $0.001
+                        </p>
+                    </div>
+                        <button class="btn title__button">
+                           Купить сейчас по $0.0008
+                        </button>
                 </div>
-                <div class="title2">
-                    <p>
-                        Стоимость PPO на IPEO: $0.0008<br>
-                        Стоимость PPO при листинге: $0.001
-                    </p>
-                </div>
-                    <button class="btn title__button">
-                       Купить сейчас по $0.0008
-                    </button>
             </div>
-            <div class="graph col-lg-6">
-                    <img src="images/graph.png" alt="graph" class="img-fluid">
-            </div>
-        </div>
 
+                <div class="graph col-lg-6">
+                    <div data-aos="fade-left">
+                        <img src="images/graph.png" alt="graph" class="img-fluid">
+                    </div>
+                </div>
+        </div>
+    <div data-aos="fade-down">
         <div class="row justify-content-center position-relative">
             <div  class="box__timer">
                 <p>До закрытия текущего раунда:</p>
@@ -58,6 +66,7 @@
 
                 </div>
         </div>
+    </div>
 </div>
 
 </header>
@@ -375,6 +384,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/animation.js"></script>
 <script src="js/main.js"></script>
 </body>
