@@ -41,7 +41,7 @@ var ringer =
         // For mobile version
         // Device width
         var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-        if(width <= 414) {
+        if(width <= 1125) {
             $r.r_count = 3;
         } else {
             $r.r_count = $r.r_defaultCount;
