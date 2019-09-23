@@ -24,6 +24,7 @@ var ringer =
             max: 60
         }
     },
+    r_defaultCount: 4,
     r_count: 4,
     r_spacing: 65, // px
     r_size: 210, // px
@@ -38,11 +39,13 @@ var ringer =
         $r.cvs = document.createElement("canvas");
 
         // For mobile version
-
         // Device width
         var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-        if(width <= 414)
+        if(width <= 414) {
             $r.r_count = 3;
+        } else {
+            $r.r_count = $r.r_defaultCount;
+        }
 
         //get DPI
         let dpi = window.devicePixelRatio;
@@ -52,7 +55,6 @@ var ringer =
             w: ((($r.r_size + $r.r_pointThickness) * $r.r_count + ($r.r_spacing*($r.r_count-1))) * dpi),
             h: (($r.r_size + $r.r_pointThickness) * dpi)
         };
-
 
         $r.cvs.setAttribute('width',$r.size.w);
         $r.cvs.setAttribute('height',$r.size.h);
@@ -84,7 +86,9 @@ var ringer =
 
 
         for(let r_key in $r.rings)
+        {
             $r.unit(idx++, r_key, $r.rings[r_key]);
+        }
 
         setTimeout($r.go,$r.update_interval);
     },
@@ -99,7 +103,6 @@ var ringer =
         x +=+(idx*($r.r_size+$r.r_spacing+$r.r_pointThickness));
         y = $r.r_size*.5;
         y += $r.r_pointThickness*.5;
-
 
         // calculate arc end angle
         var degrees = 360-(value / ring.max) * 360.0;
@@ -145,6 +148,24 @@ var ringer =
 
         $r.ctx.restore();
     }
+}
+
+Element.prototype.remove = function() {
+    this.parentElement.removeChild(this);
+}
+NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
+    for(var i = this.length - 1; i >= 0; i--) {
+        if(this[i] && this[i].parentElement) {
+            this[i].parentElement.removeChild(this[i]);
+        }
+    }
+}
+
+function resizeCanvas()
+{
+    document.getElementsByTagName("canvas").remove();
+
+    ringer.init();
 }
 
 ringer.init();
