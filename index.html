@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Product Protocol</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
@@ -12,16 +12,16 @@
     <link href="css/timer.css" rel="stylesheet">
     <link href="css/mediaquery.css" rel="stylesheet">
 </head>
-<body onresize="resizeCanvas(event)">
+<body">
 <header>
 
 <div class="wrap container-fluid">
     <div data-aos="fade">
         <div class="row">
-            <div class="logo col-lg-2 col-5">
+            <div class="logo col-lg-4 col-5">
                     <img src="images/logo.png" alt="logo" class="img-fluid">
             </div>
-            <div class="info col-lg-10 col-7">
+            <div class="info col-lg-8 col-7">
                     <p>Пн-сб. c 10.00 до 19.00 мск<br>
                         support@pprotocol.io</p>
             </div>
@@ -56,15 +56,12 @@
                 </div>
         </div>
     <div data-aos="fade-down">
-        <div class="row justify-content-center position-relative">
+        <div class="row">
             <div  class="box__timer">
                 <p>До закрытия текущего раунда:</p>
+                <div id="countdown" class="timer">
             </div>
         </div>
-        <div  class="row">
-                <div id="countdown" class="timer col-lg-12">
-
-                </div>
         </div>
     </div>
 </div>
@@ -293,7 +290,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="parallelogram">
+        <div class="parallelogram d-flex justify-content-center align-items-center">
             <div class="brands container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -363,7 +360,7 @@
         </div>
     </div>
 
-    <div class="offices row wrap">
+    <div class="offices row">
         <div class="col-lg-4 offices__box">
             <div class="effects view zoom w-75 mx-auto">
                 <div data-aos="zoom-in">
@@ -404,7 +401,7 @@
 
 <footer>
     <div class="container-fluid">
-        <div class="row wrap">
+        <div class="row">
                 <div class="col-lg-4">
                     <p>© 2019 Product Protocol. All rights reserved.<br><u><a>Privacy Policy</a></u></p>
                 </div>
