@@ -1,11 +1,341 @@
-@media (max-width: 992px) {
+@media (min-width: 767.98px) and (max-width: 992px) {
 
+    header {
+        height: 69vw;
+        padding-top: 3%;
+        background: rgb(2,78,184);
+        background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
+    }
 
+    .info p {
+        margin-top: 0;
+        color: #FFFFFF;
+        font-size: 1.6vw;
+        line-height: 1.3;
+        font-weight: 400;
+        text-align: right;
+    }
 
-}
+    .logo img{
+        width: 40%;
+    }
 
+    .graph {
+        margin-top: 0;
+    }
 
-@media (min-width: 767.98px) {
+    .title p {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.6vw;
+        line-height: 1.3;
+        font-weight: 600;
+        margin-top: 15%;
+    }
+
+    .title2 p {
+        color: #FFFFFF;
+        font-size: 1.8vw;
+        line-height: 1.3;
+        font-weight: 400;
+        padding-top: 2%;
+    }
+
+    .title__button {
+        color: #FFFFFF;
+        font-size: 1.2vw;
+        font-weight: bold;
+        margin-top: 5%;
+        width: 62%;
+        height: 5vw;
+        border-radius: 50px;
+        border: none;
+        background-color: #00BCCA;
+        -webkit-box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+        -moz-box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+        box-shadow: 2px 16px 12px 0px rgba(0,0,86,0.12);
+    }
+
+    canvas {
+        width: 60%;
+        display: block;
+        position: relative;
+        background: transparent;
+        margin: 4% auto;
+    }
+
+    .content {
+        padding: 18% 10% 0;
+    }
+
+    .content h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .content__box {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .content__box img {
+        width: 20%;
+    }
+
+    .content__box h2 {
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        color: #373737;
+        font-size: 2.1vw;
+        line-height: 1.3;
+        font-weight: 600;
+    }
+
+    .content__box p {
+        margin-top: 4%;
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+        font-size: 1.6vw;
+        line-height: 1.3;
+        font-weight: 300;
+    }
+
+    .content__second-part {
+        padding: 0 10% 0;
+    }
+
+    .content__second-part-title h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.3;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    .content__second-part h2 {
+        margin-top: 8%;
+        font-family: 'Montserrat', sans-serif;
+        color: #535353;
+        font-size: 2.2vw;
+        line-height: 1.2;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .content__second-part h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #739DD6;
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    .content__second-part p {
+        margin-top: 8%;
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+        font-size: 1.9vw;
+        line-height: 1.2;
+        font-weight: 300;
+    }
+
+    .content__second-part span {
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+        font-size: 1.7vw;
+        line-height: 1.3;
+        font-weight: 300;
+        margin-left: 22px;
+    }
+
+    .content__second-part img {
+        transform: scale(1.7);
+        position: relative;
+        top: 60px;
+        right: 100px;
+        margin-left: 10%;
+    }
+
+    .content__second-part button {
+        margin-top: 6%;
+        width: 80%;
+        height: 4.5vh;
+        border-radius: 50px;
+        border: none;
+        background-color: #739DD6;
+        -webkit-box-shadow: 5px 5px 9px 1px rgba(121,161,215,0.44);
+        -moz-box-shadow: 5px 5px 9px 1px rgba(121,161,215,0.44);
+        box-shadow: 5px 5px 9px 1px rgba(121,161,215,0.44);
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-size: 1.3vh;
+        font-weight: 700;
+    }
+
+    .pricing__title p {
+        padding: 0px 20% 0;
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .pricing ul {
+        margin-top: 8%;
+         margin-left: 0;
+        list-style-image: url(../images/yes.png);
+    }
+
+    .blue__rectangle {
+        margin-left: 0.5%;
+        width: 15%;
+        height: 0.5vmax;
+        background: rgb(2,78,184);
+        background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
+    }
+
+    .content__third-part h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 3.5vw;
+        line-height: 1.3;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .content__third-part p {
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+        font-size: 1.8vw;
+        line-height: 1.3;
+        font-weight: 300;
+    }
+
+    .content__third-part-title {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 3.3vw;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .contact__form p {
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .content__third-part-title {
+        margin-top: 8%;
+        margin-bottom: 5%;
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .contact__form{
+        width: 90%;
+    }
+
+    .contact__form span {
+        font-family: 'Roboto', sans-serif;
+        color: #373737;
+        font-size: 2.2vw;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .form-control-lg {
+        height: calc(1.5em + 1rem + 2px);
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+    }
+
+    .contact__form button {
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 1.9vw;
+        font-weight: 700;
+        background: rgb(2,78,184);
+        background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        background: linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#024eb8",endColorstr="#739dd6",GradientType=1);
+    }
+
+    .parallelogram h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 2.4vw;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .brands{
+        width: 80%;
+    }
+
+    .brands img{
+        width: 75%;
+    }
+
+    .offices__title {
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        color: #2472B8;
+        font-size: 2.4vw;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .offices p {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 1.7vw;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    footer p {
+        font-family: 'Roboto', sans-serif;
+        color: #474747;
+        font-size: 1.3vw;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 4%;
+    }
+
+    footer h4 {
+        font-family: 'Roboto', sans-serif;
+        color: #474747;
+        font-size: 1.4vw;
+        font-weight: 400;
+        line-height: 1.2;
+        text-align: right;
+        margin-top: 4%;
+    }
+
 
 }
 
@@ -48,7 +378,7 @@
 
     .title__button {
         color: #FFFFFF;
-        font-size: 3.4vw;
+        font-size: 3.1vw;
         font-weight: bold;
         margin-top: 4%;
         margin-left: 10%;
