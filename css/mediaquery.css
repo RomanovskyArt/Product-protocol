@@ -344,15 +344,15 @@
 
 @media (max-width: 767.98px) {
 
-    .wrap{
+    .wrap {
         width: 90%;
-        margin-top: 5%;
+        margin-top: 1%;
     }
 
     .info p {
         margin-top: 12px;
         color: #FFFFFF;
-        font-size: 3.5vw;
+        font-size: 3.4vw;
         line-height: 1.3;
         font-weight: 400;
     }
@@ -422,7 +422,7 @@
     .box__timer {
         margin: 20% auto;
         width: 90%;
-        height: 150px;
+        height: 34vw;
         background-color: #ffffff;
         border-radius: 8px;
         -webkit-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
@@ -430,9 +430,9 @@
         box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
     }
 
-    .box__timer p{
+    .box__timer p {
         margin-top: 6%;
-        font-size: 16px;
+        font-size: 3.8vw;
     }
 
     .timer {
@@ -447,22 +447,22 @@
     }
 
     header {
-        height: 215vw;
+        height: 209vw;
     }
 
     main {
         background-color: #F4F6F8;
-        padding-top: 120px;
+        padding-top: 24%;
     }
 
     .content {
-        padding-top: 10%;
+        padding-top: 2%;
     }
 
     .content h3 {
         font-family: 'Montserrat', sans-serif;
         color: #2472B8;
-        font-size: 18px;
+        font-size: 4.5vw;
         line-height: 1.2;
         text-align: center;
     }
@@ -471,7 +471,7 @@
         margin-top: 5%;
         font-family: 'Montserrat', sans-serif;
         color: #373737;
-        font-size: 17px;
+        font-size: 4.5vw;
         line-height: 1.3;
         font-weight: 600;
         text-align: center;
@@ -481,7 +481,7 @@
         margin-top: 4%;
         font-family: 'Roboto', sans-serif;
         color: #373737;
-        font-size: 16px;
+        font-size: 4.1vw;
         line-height: 1.3;
         font-weight: 300;
         text-align: center;
@@ -509,8 +509,8 @@
     .content__second-part-title h3 {
         font-family: 'Montserrat', sans-serif;
         color: #2472B8;
-        font-size: 18px;
         line-height: 1.2;
+        font-size: 4.5vw;
         text-align: center;
         padding: 0;
     }
@@ -519,7 +519,7 @@
         margin-top: 8%;
         font-family: 'Montserrat', sans-serif;
         color: #535353;
-        font-size: 18px;
+        font-size: 4.5vw;
         line-height: 1.2;
         font-weight: 600;
         text-align: center;
@@ -529,7 +529,7 @@
         margin-top: 8%;
         font-family: 'Roboto', sans-serif;
         color: #373737;
-        font-size: 16px;
+        font-size: 4.5vw;
         line-height: 1.2;
         font-weight: 300;
         text-align: center;
@@ -538,7 +538,7 @@
     .content__second-part h3 {
         font-family: 'Montserrat', sans-serif;
         color: #739DD6;
-        font-size: 60px;
+        font-size: 14.5vw;
         font-weight: 600;
     }
 
@@ -552,10 +552,9 @@
     }
 
     .content__second-part button {
-        margin-top: 8%;
-        width: 97%;
-        height: 60px;
-        border-radius: 50px;
+        margin: 8% 8%;
+        width: 85%;
+        height: 15vw;
         border: none;
         background-color: #739DD6;
         -webkit-box-shadow: 5px 5px 9px 1px rgba(121,161,215,0.44);
@@ -563,7 +562,7 @@
         box-shadow: 5px 5px 9px 1px rgba(121,161,215,0.44);
         font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 5vw;
         font-weight: 700;
     }
 
@@ -571,7 +570,7 @@
         margin-top: 8%;
         font-family: 'Montserrat', sans-serif;
         color: #2472B8;
-        font-size: 18px;
+        font-size: 4.5vw;
         line-height: 1.2;
         text-align: center;
         padding: 0 0;
@@ -580,7 +579,7 @@
     .blue-box {
         border-radius: 6px;
         width: 100%;
-        height: 170px;
+        height: 43vw;
         background: rgb(2,78,184);
         background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
         background: -webkit-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
@@ -592,7 +591,7 @@
     .blue-box p {
         font-family: 'Montserrat', sans-serif;
         color: #ffffff;
-        font-size: 18px;
+        font-size: 4.6vw;
         font-weight: 600;
         text-align: center;
     }
@@ -600,7 +599,7 @@
     .blue-box span {
         font-family: 'Montserrat', sans-serif;
         color: #ffffff;
-        font-size: 40px;
+        font-size: 9.5vw;
         font-weight: 600;
         text-align: center;
     }
@@ -615,7 +614,7 @@
         padding-bottom: 6px;
         font-family: 'Roboto', sans-serif;
         color: #373737;
-        font-size: 13px;
+        font-size: 3.4vw;
         font-weight: 300;
     }
 
@@ -630,11 +629,11 @@
     }
 
     .content__third-part-title {
-        margin-top: 8%;
+        margin-top: 6%;
         margin-bottom: 5%;
         font-family: 'Montserrat', sans-serif;
         color: #2472B8;
-        font-size: 18px;
+        font-size: 6vw;
         line-height: 1.2;
         text-align: center;
         padding: 0 50px;
@@ -674,13 +673,12 @@
         padding: 0 30px;
     }
 
-
     .contact__form p {
         margin-top: 8%;
         margin-bottom: 10%;
         font-family: 'Montserrat', sans-serif;
         color: #2472B8;
-        font-size: 18px;
+        font-size: 4.3vw;
         line-height: 1.2;
         text-align: center;
     }
@@ -700,7 +698,7 @@
     .contact__form button {
         font-family: 'Roboto', sans-serif;
         color: #ffffff;
-        font-size: 16px;
+        font-size: 3.7vw;
         font-weight: 700;
         background: rgb(2,78,184);
         background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
@@ -731,13 +729,13 @@
     }
 
     .offices {
-        margin-top: 4%;
-        margin: 0 auto;
+        margin: 4% auto;
     }
 
     .offices__title p {
         margin-top: 7%;
-        font-size: 18px;
+        margin-bottom: 7%;
+        font-size: 4.5vw;
         line-height: 1.2;
     }
 
@@ -750,14 +748,14 @@
     }
 
     .offices__box p {
-        font-size: 16px;
+        font-size: 4.5vw;
     }
 
     footer h4 {
         margin-top: 4%;
         font-family: 'Roboto', sans-serif;
         color: #474747;
-        font-size: 15px;
+        font-size: 3.2vw;
         font-weight: 400;
         line-height: 1.2;
         text-align: center;
@@ -766,7 +764,7 @@
     footer p {
         font-family: 'Roboto', sans-serif;
         color: #474747;
-        font-size: 15px;
+        font-size: 3.2vw;
         font-weight: 400;
         line-height: 1.2;
         text-align: center;
