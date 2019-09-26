@@ -1,3 +1,3 @@
 # Product protocol Landing page
- | [clickable reference](https://romanovskyart.github.io/Product-protocol/)
+ Build on HTML/CSS, MBD, aos | [clickable reference](https://romanovskyart.github.io/Product-protocol/)
 ------------ | -------------
