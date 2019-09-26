@@ -1,4 +1,4 @@
-@media (min-width: 992px) and (max-width: 1124px) {
+@media (min-width: 993px) and (max-width: 1124px) {
     canvas {
         width: 60%;
         display: block;
@@ -119,7 +119,7 @@
 }
 
 
-@media (min-width: 767.98px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
     header {
         height: 72vw;
@@ -316,7 +316,22 @@
     .pricing ul {
         margin-top: 8%;
          margin-left: 0;
-        list-style-image: url(../images/yes.png);
+
+    }
+
+    .pricing li {
+        padding-bottom: 6px;
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
+    .card {
+        width: 100%;
+        height: 328px;
+        border-radius: 6px;
+        -webkit-box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
+        -moz-box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
+        box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
     }
 
     .blue__rectangle {
@@ -420,9 +435,6 @@
         width: 80%;
     }
 
-    .brands img{
-        width: 75%;
-    }
 
     .offices__title {
         margin-top: 5%;
@@ -468,7 +480,7 @@
 
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
 
     .wrap {
         width: 90%;
@@ -835,7 +847,7 @@
     .parallelogram {
         margin-top: 12%;
         width: 100%;
-        height: 409px;
+        height: 450px;
         clip-path: polygon(0 18%, 100% 0%, 100% 82%, 0% 100%);
         -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
         background: rgb(2,78,184);
@@ -856,6 +868,59 @@
     .brands{
         width: 90%;
     }
+
+    .mercedes {
+        transform: scale(0.7);
+        margin-top: 3%;
+    }
+
+    .citibank {
+        transform: scale(1.2);
+        margin-top: 11%;
+    }
+
+    .cryptoprocessing {
+        transform: scale(0.6);
+        padding-left: 3%;
+    }
+
+    .unreal {
+        margin-top: 5%;
+        transform: scale(1.6);
+        padding-left: 12%;
+    }
+
+    .dokkur {
+        transform: scale(1.4);
+        padding-top: 2%;
+        padding-left: 11%;
+    }
+
+    .dellaprotonda {
+        transform: scale(1);
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .health {
+        margin-left: 0;
+        transform: scale(0.55);
+    }
+
+    .blockconnectors {
+        transform: scale(0.7);
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     .offices {
         margin: 0 auto;
