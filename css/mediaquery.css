@@ -671,7 +671,7 @@
     .content__second-part span {
         font-family: 'Roboto', sans-serif;
         color: #373737;
-        font-size: 16px;
+        font-size: 4vw;
         line-height: 1.3;
         font-weight: 300;
         margin-left: 22px;
@@ -762,8 +762,7 @@
         font-size: 6vw;
         line-height: 1.2;
         text-align: center;
-        padding: 0 50px;
-    }
+}
 
     .blue__rectangle {
         margin-left: 0.5%;
