@@ -1,4 +1,5 @@
 @media (min-width: 993px) and (max-width: 1124px) {
+
     canvas {
         width: 60%;
         display: block;
@@ -114,6 +115,9 @@
         font-weight: 300;
         margin-left: 22px;
     }
+
+
+
 
 
 }
@@ -434,6 +438,7 @@
     .brands{
         width: 80%;
     }
+
 
 
     .offices__title {
