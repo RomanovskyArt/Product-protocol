@@ -21,7 +21,8 @@ body{
 }
 
 header{
-    height: 72vw;
+    max-width: 100%;
+    height: auto;
     padding-top: 3%;
     background: rgb(2,78,184);
     background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
@@ -102,10 +103,12 @@ header{
     width: 100%;
 }
 
-.box__timer{
-    margin: 9% auto;
-    width: 90%;
-    height: 28vw;
+.box__timer {
+    margin: 0 auto;
+    width: auto;
+    position: relative;
+    top: 180px;
+    height: auto;
     background-color: #ffffff;
     border-radius: 8px;
     -webkit-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
@@ -126,7 +129,7 @@ main {
 }
 
 .content{
-    padding-top: 30%;
+    padding-top: 25%;
 }
 
 .content__box {

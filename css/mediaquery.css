@@ -561,9 +561,12 @@
     }
 
     .box__timer {
-        margin: 20% auto;
+        margin: 0 auto;
+        position: relative;
+        top: 60px;
+        z-index: 3;
         width: 90%;
-        height: 34vw;
+        height: auto;
         background-color: #ffffff;
         border-radius: 8px;
         -webkit-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
@@ -588,7 +591,8 @@
     }
 
     header {
-        height: 209vw;
+        height: auto;
+        max-width: 100%;
     }
 
     main {
