@@ -761,9 +761,8 @@
 
     .card {
         width: 100%;
-        height: 46vh;
+        height: 104vw;
         border-radius: 6px;
-        margin-bottom: 9%;
         -webkit-box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
         -moz-box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
         box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
@@ -913,17 +912,6 @@
     .blockconnectors {
         transform: scale(0.7);
     }
-
-
-
-
-
-
-
-
-
-
-
 
     .offices {
         margin: 0 auto;
