@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=cyrillic');
 
+
+.row {
+&:before {
+     content: none;
+ }
+
+&:after {
+     content: '';
+ }
+}
+
+
 body{
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
