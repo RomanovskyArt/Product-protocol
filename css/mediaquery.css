@@ -116,17 +116,27 @@
         margin-left: 22px;
     }
 
-
-
-
-
 }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
 
-    header {
-        height: 72vw;
+    .box__timer {
+        margin: 0 auto;
+        width: auto;
+        position: relative;
+        top: 108px;
+        height: auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        -webkit-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+        -moz-box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+        box-shadow: 2px 2px 11px 0px rgba(0,0,0,0.17);
+    }
+
+    header{
+        max-width: 100%;
+        height: auto;
         padding-top: 3%;
         background: rgb(2,78,184);
         background: -moz-linear-gradient(125deg, rgba(2,78,184,1) 0%, rgba(115,157,214,1) 100%);
