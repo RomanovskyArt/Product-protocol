@@ -439,8 +439,6 @@
         width: 80%;
     }
 
-
-
     .offices__title {
         margin-top: 5%;
         font-family: 'Montserrat', sans-serif;
@@ -763,7 +761,7 @@
 
     .card {
         width: 100%;
-        height: 100%;
+        height: 46vh;
         border-radius: 6px;
         margin-bottom: 9%;
         -webkit-box-shadow: 5px 5px 9px 0px rgba(121,161,215,0.13);
